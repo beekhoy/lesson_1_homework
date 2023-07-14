@@ -1,0 +1,18 @@
+//Ввод и создание переменных
+int a = int.Parse(Console.ReadLine());
+int b = int.Parse(Console.ReadLine());
+int c = int.Parse(Console.ReadLine());
+int max = a;
+// определение макс числа
+Console.WriteLine("Введите 3 числа, чтобы получить максимальное из 3-х чисел");
+if (a<b)
+{
+    max=b;
+}
+if (b<c)
+{
+    max=c;
+}
+
+//Вывод
+Console.WriteLine($"Максимальное чилсо - {max}");
